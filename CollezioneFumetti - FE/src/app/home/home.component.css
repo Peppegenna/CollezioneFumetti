@@ -1,0 +1,43 @@
+.tex {
+    float: left;
+    position: relative;
+    width: 50%;
+    max-width: 400px;
+    
+  }
+  
+  .tex img {
+    margin-left: 60px;
+    width: 400px;
+    height: 400px;
+    
+  }
+  
+  .tex .btn {
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:rgba(54, 46, 46, 0.596);
+    color: white;
+    font-size: 25px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+  
+  .tex .btn:hover {
+    background-color: black;
+    color: white;
+    
+  }
+
+  body {
+    background-color: rgb(12, 110, 138);
+  }
+  
+

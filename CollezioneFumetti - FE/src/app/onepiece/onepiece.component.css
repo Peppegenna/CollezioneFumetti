@@ -1,0 +1,84 @@
+.button {
+
+    background-color: rgb(35, 79, 223); /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 50px;
+  
+  }
+  
+  .button2 {
+  
+    background-color: rgb(35, 79, 223);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 20px;
+    margin-left: 50px;
+  
+  }
+  
+  
+  .text {
+  
+      width: 300px;
+      margin: 50px auto;
+      background: #222;
+      padding: 25px;
+      overflow: hidden;
+      -moz-border-radius: 20px;
+      -webkit-border-radius: 20px;
+      border-radius: 20px;
+      color: white;
+      font-size: 15px;
+      margin-left: 50px;
+  
+  }
+  
+  #tabella {
+  
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 70%;
+      margin-top: 70px;
+      margin-left: 50px;
+  
+  }
+  
+  #tabella td, #tabella th {
+  
+      border: 1px solid #ddd;
+      padding: 8px;
+  
+  }
+  
+  #tabella tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #tabella tr:hover {background-color: #ddd;}
+  
+  #tabella th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(35, 79, 223);
+    color: white;
+  }
+
+  img {
+      margin-top: 20px;
+  }
+
+  body {
+    background-color: rgb(120, 134, 138);
+  }

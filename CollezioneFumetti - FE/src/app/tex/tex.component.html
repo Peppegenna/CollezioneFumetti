@@ -1,0 +1,42 @@
+<body>
+<div style="text-align:center">
+  <img id="img" width="300" alt="Angular Logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc9kqxfOVn4YmF9JMbVkuLgmxaAvwHWxth8bVWbvqbnyvnbYq2">
+</div>
+<br>
+<br>
+<input class="text" type="text" placeholder="numero" [(ngModel)]="tex.numero">
+<input class="text" type="text" placeholder="titolo" [(ngModel)]="tex.titolo">
+<input class="text" type="text" placeholder="copertina" [(ngModel)]="tex.img">
+<button class="button" type="button" (click)="aggiungi()">Aggiungi Tex</button>
+<button class="button" type="button" (click)="elimina()">Rimuovi Tex</button>
+<br>
+<br>
+<input class="text" type="text" placeholder="cerca" [(ngModel)]="testoRicercaPerTitolo">
+<button class="button" type="button" (click)="cerca()">Cerca</button>
+<br>
+<br>
+<button class="button2" type="button" (click)="trovaTuttiTex()">Trova tutti</button>
+<br>
+<br>
+<div>
+  <table id="tabella">
+    <tr>
+     <th>Numero</th>
+     <th>Titolo</th>
+     <th>Copertina</th>
+     <th>Azioni</th>
+    </tr>
+    <tr *ngFor="let l of listaTex">
+      <td>{{l.numero}}</td>
+      <td>{{l.titolo}}</td>
+      <td>
+        <a class="immagine" target="_blank" href="{{l.img}}">
+          <img src={{l.img}} alt="LaManoRossa" style="width:40px">
+        </a>
+      </td>
+      <td><button class="button" type="button" (click)=seleziona(l)>Seleziona</button></td>
+    </tr>
+  </table>
+</div>
+</body>
+
